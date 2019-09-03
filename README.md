@@ -11,7 +11,7 @@ gem 'prefixed_delegation'
 ## Usage
 
 ```ruby
-# Defines account_name, but lack of greppability.
+# Defines account_name with lesser greppability.
 delegate :name, to: :user, prefix: :account
 
 # Defines account_name with greppability and some redundancy.
